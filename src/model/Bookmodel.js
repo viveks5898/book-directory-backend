@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 const { Schema, model } = mongoose;
 
 
+
 const BookSchema = new Schema({
   name: { type: String },
   author: { type: String },
